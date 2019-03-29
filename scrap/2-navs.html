@@ -1,0 +1,581 @@
+<style>
+
+
+/*! CSS Used from: https://keen.io/assets/build/keen.min-ba8f80a6.css */
+nav{display:block;}
+a{background-color:transparent;-webkit-text-decoration-skip:objects;}
+img{border-style:none;}
+h4{font-weight:200;line-height:1.25;margin:.75em 0;}
+h4{font-size:1.25rem;}
+a{color:#00b0eb;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:focus{outline:1px dotted currentColor;outline-offset:.125rem;}
+a:active,a:hover{outline-width:0;}
+ul{margin:1em 0;}
+ul{padding-left:2em;}
+ul ul{margin:0;}
+::-moz-selection{background:#adebff;}
+::selection{background:#adebff;}
+a,div,h4,li,ul{box-sizing:border-box;}
+img{max-width:100%;}
+
+
+.h3{height:4rem;}
+.tracked{letter-spacing:.1em;}
+.lh-copy{line-height:1.5;}
+.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{-webkit-transition:color .15s ease-in;transition:color .15s ease-in;}
+.link:focus{outline:1px dotted currentColor;}
+.list{list-style-type:none;}
+.relative{position:relative;}
+.fixed{position:fixed;}
+
+.z-999{z-index:999;}
+.z-9999{z-index:9999;}
+.rise,.rise:link,.rise:visited{box-shadow:0 3px 8px 1px rgba(21,28,40,.08),0 2px 2px rgba(21,28,40,.04);}
+.rise,.rise:hover,.rise:link,.rise:visited{-webkit-transition:box-shadow .15s ease,color .15s ease,-webkit-transform .15s ease;transition:box-shadow .15s ease,color .15s ease,-webkit-transform .15s ease;transition:transform .15s ease,box-shadow .15s ease,color .15s ease;transition:transform .15s ease,box-shadow .15s ease,color .15s ease,-webkit-transform .15s ease;}
+.rise:hover{-webkit-transform:translateY(-1px);transform:translateY(-1px);box-shadow:0 6px 16px 3px rgba(21,28,40,.08),0 4px 6px rgba(21,28,40,.04);}
+.link,.link:link,.link:visited{text-decoration:none;}
+.link:active,.link:hover{text-decoration:none;outline-width:0;}
+.link:focus{text-decoration:none;}
+@media screen and (min-width:30em){
+.dib-ns{display:inline-block;}
+.tl-ns{text-align:left;}
+}
+/*! CSS Used from: https://keen.io/assets/build/statics.min-9235ce6a.css */
+.mobile-nav a:focus,.mobile-nav a:hover{text-decoration:none;}
+.mobile-nav-content{top:0;left:0;right:0;bottom:0;opacity:0;pointer-events:none;transition:opacity .3s;overflow-y:auto;}
+.mobile-hamburger{transition:transform .3s;right:0;top:15px;}
+.mobile-hamburger *{height:3px;width:25px;background-color:#8592ad;transition:transform .3s;margin:6px 0;}
+.nav-header-link:hover{text-decoration:none;}
+.mobile-hamburger *{background-color:#00bbde;}
+.index .mobile-hamburger *{background-color:#208bbd;}
+.mobile-nav{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:row;flex-direction:row;}
+.mobile-nav .mobile-hamburger{top:0;}
+.mobile-nav .mobile-nav-content .link{font-family:Hind;}
+.mobile-nav .line-buttons a{color:#fff;}
+.nav-header-link{font-family:Hind;font-size:14px;font-weight:500;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;text-align:center;color:#fff;text-transform:uppercase;}
+a.nav-header-link:hover{color:#fff;}
+.index .mobile-nav-content .tl-ns a{color:#fff;}
+.index .header-logo-img{width:129px;height:37px;}
+.index .bg-white{background:#fff;}
+@media screen and (min-width:60em){
+.mobile-nav{display:none;}
+}
+
+
+/*! CSS Used from: https://keen.io/assets/build/keen.min-ba8f80a6.css */
+nav{display:block;}
+a{background-color:transparent;-webkit-text-decoration-skip:objects;}
+img{border-style:none;}
+a{color:#00b0eb;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:focus{outline:1px dotted currentColor;outline-offset:.125rem;}
+a:active,a:hover{outline-width:0;}
+ul{margin:1em 0;}
+ul{padding-left:2em;}
+ul ul{margin:0;}
+::-moz-selection{background:#adebff;}
+::selection{background:#adebff;}
+a,div,li,p,ul{box-sizing:border-box;}
+img{max-width:100%;}
+
+.link,.link:link,.link:visited{text-decoration:none;}
+.link:active,.link:hover{text-decoration:none;outline-width:0;}
+.link:focus{text-decoration:none;}
+@media screen and (min-width:30em) and (max-width:60em){
+.ph2-m{padding-left:.5rem;padding-right:.5rem;}
+}
+@media screen and (min-width:60em){
+.ph3-l{padding-left:1rem;padding-right:1rem;}
+}
+/*! CSS Used from: https://keen.io/assets/build/statics.min-9235ce6a.css */
+.desktop-nav .list{font-size:0;}
+.nav-dropdown{left:0;transition:transform .3s,opacity .3s;opacity:1;}
+.nav-dropdown.closed{opacity:0;pointer-events:none;transition:opacity .3s;}
+.nav-dropdown.closed .nav-dropdown-background,.nav-dropdown.closed .nav-dropdown-content{transition:none;}
+.nav-dropdown-arrow{content:"";height:20px;width:20px;position:absolute;top:5px;left:50%;transform:translateX(-50%) translateY(-50%) rotate(45deg);transition:transform .3s;background-color:#fff;box-shadow:-3px -3px 8px rgba(0,0,0,.025);}
+.nav-dropdown-background{width:24em;height:19em;transition:transform .3s;}
+.nav-dropdown-content{transition:height .3s,width .3s,transform .3s;height:auto;width:auto;}
+.nav-dropdown-list{transition:transform .3s,opacity .3s,width .3s;opacity:1;}
+.nav-dropdown-list.columns-1{width:20rem;}
+.nav-dropdown-list.columns-2{width:40rem;}
+.nav-dropdown-list.columns-1>li{-ms-flex:0 0 100%;flex:0 0 100%;}
+.nav-dropdown-list.columns-2>li{-ms-flex:0 0 48%;flex:0 0 48%;}
+.desktop-nav a:focus,.desktop-nav a:hover{text-decoration:none;}
+.desktop-nav{display:none;}
+.nav-header-link:hover,.nav-modal-link:hover{text-decoration:none;}
+.pt-03{padding-top:.3rem;}
+.nav-header-link{font-family:Hind;font-size:14px;font-weight:500;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;text-align:center;color:#fff;text-transform:uppercase;}
+a.nav-header-link:hover{color:#fff;}
+.nav-header-link-btn{padding:.5rem 3em;border:0;}
+.top-menu-a{padding:.5rem 1.4rem;}
+.nav-header-link-btn-border{border-radius:5px;border:2px solid #fff;margin-top:-2px;}
+.flex-1{-ms-flex:1;flex:1;-ms-flex-direction:column;flex-direction:column;}
+.m-0{margin:0;}
+.p-0{padding:0;}
+.nav-dropdown{top:4rem;font-family:Hind;}
+.index .nav-dropdown{top:5rem;}
+.index .header-logo-img{width:129px;height:37px;}
+.index .desktop-nav{padding-top:1rem;}
+.index .bg-white{background:#fff;}
+@media screen and (min-width:60em){
+.desktop-nav{display:-ms-flexbox;display:flex;}
+}
+@media only screen and (max-width:980px){
+.desktop-nav .top-menu-a{padding:.5rem 1.1rem;}
+}
+
+
+/*! CSS Used from: https://keen.io/assets/build/keen.min-ba8f80a6.css */
+nav{display:block;}
+main{display:block;}
+a{background-color:transparent;-webkit-text-decoration-skip:objects;}
+strong{font-weight:inherit;font-weight:bolder;}
+img{border-style:none;}
+h4{font-weight:200;line-height:1.25;margin:.75em 0;}
+h4{font-size:1.25rem;}
+strong{font-weight:500;}
+a{color:#00b0eb;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a:focus{outline:1px dotted currentColor;outline-offset:.125rem;}
+a:active,a:hover{outline-width:0;}
+ul{margin:1em 0;}
+ul{padding-left:2em;}
+ul ul{margin:0;}
+::-moz-selection{background:#adebff;}
+::selection{background:#adebff;}
+a,div,h4,li,main,p,ul{box-sizing:border-box;}
+img{max-width:100%;}
+.ba{border-style:solid;border-width:1px;}
+.br2{border-radius:.25rem;}
+.br-pill{border-radius:9999px;}
+.bw1{border-width:.125rem;}
+.shadow-5{box-shadow:4px 4px 8px 0 rgba(0,0,0,.2);}
+.left-0{left:0;}
+.dn{display:none;}
+.db{display:block;}
+.dib{display:inline-block;}
+.flex{display:-webkit-box;display:-ms-flexbox;display:flex;}
+.inline-flex{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex;}
+.flex-wrap{-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.self-end{-ms-flex-item-align:end;align-self:flex-end;}
+.justify-between{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;}
+.fw2{font-weight:200;}
+.fw7{font-weight:700;}
+.h3{height:4rem;}
+.h-100{height:100%;}
+.tracked{letter-spacing:.1em;}
+.lh-solid{line-height:1;}
+.lh-copy{line-height:1.5;}
+.link,.link:active,.link:focus,.link:hover,.link:link,.link:visited{-webkit-transition:color .15s ease-in;transition:color .15s ease-in;}
+.link:focus{outline:1px dotted currentColor;}
+.list{list-style-type:none;}
+.w-100{width:100%;}
+.overflow-hidden{overflow:hidden;}
+.relative{position:relative;}
+.absolute{position:absolute;}
+.fixed{position:fixed;}
+.dark-gray{color:#29303d;}
+.silver{color:#8592ad;}
+.moon-gray{color:#c2c9d6;}
+.white{color:#fff;}
+.bg-white{background-color:#fff;}
+.bg-blue{background-color:#00b0eb;}
+.hover-dark-gray:focus,.hover-dark-gray:hover{color:#29303d;}
+.pa0{padding:0;}
+.pa4{padding:2rem;}
+.pl0{padding-left:0;}
+.pb4{padding-bottom:2rem;}
+.pt1{padding-top:.25rem;}
+.pt2{padding-top:.5rem;}
+.pt3{padding-top:1rem;}
+.pv2{padding-top:.5rem;padding-bottom:.5rem;}
+.pv3{padding-top:1rem;padding-bottom:1rem;}
+.ph3{padding-left:1rem;padding-right:1rem;}
+.ph4{padding-left:2rem;padding-right:2rem;}
+.mr2{margin-right:.5rem;}
+.mb1{margin-bottom:.25rem;}
+.mb2{margin-bottom:.5rem;}
+.mb3{margin-bottom:1rem;}
+.mt0{margin-top:0;}
+.mt4{margin-top:2rem;}
+.mv0{margin-top:0;margin-bottom:0;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.ttu{text-transform:uppercase;}
+.f3{font-size:1.5rem;}
+.f5{font-size:1rem;}
+.f6{font-size:.875rem;}
+.z-1{z-index:1;}
+.z-999{z-index:999;}
+.z-9999{z-index:9999;}
+.shadow-5{box-shadow:0 8px 32px 6px rgba(21,28,40,.08),0 8px 12px rgba(21,28,40,.04);}
+.rise,.rise:link,.rise:visited{box-shadow:0 3px 8px 1px rgba(21,28,40,.08),0 2px 2px rgba(21,28,40,.04);}
+.rise,.rise:hover,.rise:link,.rise:visited{-webkit-transition:box-shadow .15s ease,color .15s ease,-webkit-transform .15s ease;transition:box-shadow .15s ease,color .15s ease,-webkit-transform .15s ease;transition:transform .15s ease,box-shadow .15s ease,color .15s ease;transition:transform .15s ease,box-shadow .15s ease,color .15s ease,-webkit-transform .15s ease;}
+.rise:hover{-webkit-transform:translateY(-1px);transform:translateY(-1px);box-shadow:0 6px 16px 3px rgba(21,28,40,.08),0 4px 6px rgba(21,28,40,.04);}
+.link,.link:link,.link:visited{text-decoration:none;}
+.link:active,.link:hover{text-decoration:none;outline-width:0;}
+.link:focus{text-decoration:none;}
+@media screen and (min-width:30em){
+.dib-ns{display:inline-block;}
+.tl-ns{text-align:left;}
+}
+@media screen and (min-width:30em) and (max-width:60em){
+.ph2-m{padding-left:.5rem;padding-right:.5rem;}
+}
+@media screen and (min-width:60em){
+.ph3-l{padding-left:1rem;padding-right:1rem;}
+}
+/*! CSS Used from: https://keen.io/assets/build/statics.min-9235ce6a.css */
+.desktop-nav .list{font-size:0;}
+.nav-dropdown{left:0;transition:transform .3s,opacity .3s;opacity:1;}
+.nav-dropdown.closed{opacity:0;pointer-events:none;transition:opacity .3s;}
+.nav-dropdown.closed .nav-dropdown-background,.nav-dropdown.closed .nav-dropdown-content{transition:none;}
+.nav-dropdown-arrow{content:"";height:20px;width:20px;position:absolute;top:5px;left:50%;transform:translateX(-50%) translateY(-50%) rotate(45deg);transition:transform .3s;background-color:#fff;box-shadow:-3px -3px 8px rgba(0,0,0,.025);}
+.nav-dropdown-background{width:24em;height:19em;transition:transform .3s;}
+.nav-dropdown-content{transition:height .3s,width .3s,transform .3s;height:auto;width:auto;}
+.nav-dropdown-list{transition:transform .3s,opacity .3s,width .3s;opacity:1;}
+.nav-dropdown-list.columns-1{width:20rem;}
+.nav-dropdown-list.columns-2{width:40rem;}
+.nav-dropdown-list.columns-1>li{-ms-flex:0 0 100%;flex:0 0 100%;}
+.nav-dropdown-list.columns-2>li{-ms-flex:0 0 48%;flex:0 0 48%;}
+.desktop-nav a:focus,.desktop-nav a:hover,.mobile-nav a:focus,.mobile-nav a:hover{text-decoration:none;}
+.mobile-nav-content{top:0;left:0;right:0;bottom:0;opacity:0;pointer-events:none;transition:opacity .3s;overflow-y:auto;}
+.mobile-hamburger{transition:transform .3s;right:0;top:15px;}
+.mobile-hamburger *{height:3px;width:25px;background-color:#8592ad;transition:transform .3s;margin:6px 0;}
+.desktop-nav{display:none;}
+.nav-header-link:hover,.nav-modal-link:hover{text-decoration:none;}
+.container{margin:0 auto;max-width:1240px;}
+.mobile-hamburger *{background-color:#00bbde;}
+.index .mobile-hamburger *{background-color:#208bbd;}
+.mobile-nav{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-direction:row;flex-direction:row;}
+.mobile-nav .mobile-hamburger{top:0;}
+.mobile-nav .mobile-nav-content .link{font-family:Hind;}
+.mobile-nav .line-buttons a{color:#fff;}
+.pt-03{padding-top:.3rem;}
+.nav-header-link{font-family:Hind;font-size:14px;font-weight:500;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:.5px;text-align:center;color:#fff;text-transform:uppercase;}
+a.nav-header-link:hover{color:#fff;}
+.nav-header-link-btn{padding:.5rem 3em;border:0;}
+.top-menu-a{padding:.5rem 1.4rem;}
+.nav-header-link-btn-border{border-radius:5px;border:2px solid #fff;margin-top:-2px;}
+.flex-1{-ms-flex:1;flex:1;-ms-flex-direction:column;flex-direction:column;}
+.m-0{margin:0;}
+.p-0{padding:0;}
+.nav-dropdown{top:4rem;font-family:Hind;}
+.index .nav-dropdown{top:5rem;}
+.index .mobile-nav-content .tl-ns a{color:#fff;}
+.index .header-logo-img{width:129px;height:37px;}
+.index .create-account-button,.index .create-account-button:hover{border-radius:5px;box-shadow:0 2px 4px 0 rgba(0,0,0,.5);background-color:#3ecf8e;color:#fff;padding:1em 2em;letter-spacing:1px;float:left;text-decoration:none;}
+.index .sub-black{width:100%;color:#07657a;margin-top:7vw;}
+.index .sub-white{width:100%;color:#fff;margin:1.2rem 0 3rem;font-size:2.5rem;padding-right:2em;}
+.index .talk-to-an-expert{clear:both;float:left;width:100%;margin-top:1rem;font-size:.8rem;color:#ffffffb3;}
+.index .talk-to-an-expert a{color:#ffffffb3;border-bottom:1px solid #ffffffb3;text-decoration:none;}
+.index .main-container{margin-top:3rem;margin-bottom:160px;}
+.index .main-container .home-screen-wrapper{text-align:center;overflow:hidden;height:540px;margin-top:-24px;}
+.index .main-container .home-screen-wrapper .home-screen{height:100%;}
+.index .desktop-nav{padding-top:1rem;}
+.index .bg-white{background:#fff;}
+@media screen and (min-width:60em){
+.mobile-nav{display:none;}
+.desktop-nav{display:-ms-flexbox;display:flex;}
+}
+@media only screen and (max-width:1300px){
+.index .sub-white{padding-right:0;}
+}
+@media only screen and (max-width:980px){
+.desktop-nav .top-menu-a{padding:.5rem 1.1rem;}
+}
+@media (-ms-high-contrast:none){
+.index .talk-to-an-expert,.index .talk-to-an-expert a{color:#fff;}
+}
+@media only screen and (max-width:1400px){
+.index .container{width:90%;}
+}
+@media only screen and (max-width:900px){
+.index .main-container{margin-bottom:60px;}
+.index .main-container .home-screen-wrapper,.index .main-container .home-screen-wrapper .home-screen{height:auto;}
+.index .sub-black{margin-top:0;}
+.index .sub-white{font-size:2.2rem;}
+}
+@media only screen and (max-width:700px){
+.index .main-container{-ms-flex-direction:column-reverse;flex-direction:column-reverse;}
+.index .main-container .sub-black{margin-top:1rem;}
+.index .main-container .sub-white{font-size:2rem;margin-bottom:1rem;}
+}
+/*! CSS Used from: Embedded */
+.textHelperPosition{display:none;margin-left:0px!important;margin-top:0px!important;z-index:1!important;color:white;}
+/*! CSS Used fontfaces */
+@font-face{font-family:'Hind';font-style:normal;font-weight:400;src:local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v9/5aU69_a8oxmIdGh4BDGwgDJm_A.woff2) format('woff2');unicode-range:U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;}
+@font-face{font-family:'Hind';font-style:normal;font-weight:400;src:local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v9/5aU69_a8oxmIdGd4BDGwgDJm_A.woff2) format('woff2');unicode-range:U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'Hind';font-style:normal;font-weight:400;src:local('Hind Regular'), local('Hind-Regular'), url(https://fonts.gstatic.com/s/hind/v9/5aU69_a8oxmIdGl4BDGwgDI.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}
+
+</style>
+
+
+
+<!-- Mobile Nav -->
+<div class="container">
+<nav class="mobile-nav h3">
+    <a href="https://keen.io/" class="header-logo">
+        <img class="header-logo-img" src="assets/ICIsquare_color_32x32.png">
+    </a>
+    <i class="mobile-hamburger z-9999 relative">
+      <div></div>
+      <div></div>
+      <div></div>
+    </i>
+    <div class="mobile-nav-content fixed z-999 bg-dark-blue ph4 pb4 pt3 lh-copy">
+      <ul class="list tl pl0 pb4 mv0 pt2">
+            <li class="pb4">
+              <h4 class="black f5 fw7 mt0 mb2 ttu">Platform</h4>
+              <ul class="list tl pl0">
+                <li>
+                  <a href="https://keen.io/products/streams/" class="link f3 fw2 dark-gray">
+                    Stream Events
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/products/compute/" class="link f3 fw2 dark-gray">
+                    Compute
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/products/access/" class="link f3 fw2 dark-gray">
+                    Access
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/products/visualize/" class="link f3 fw2 dark-gray">
+                    Visualize
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="pb4">
+              <h4 class="moon-gray f5 fw7 mt0 mb2 ttu">Developers</h4>
+              <ul class="list tl pl0">
+                <li>
+                  <a href="https://keen.io/docs/" class="link f3 fw2 dark-gray">
+                    Documentation
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/guides/getting-started/" class="link f3 fw2 dark-gray">
+                    Quickstart Guide
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/docs/api/" class="link f3 fw2 dark-gray">
+                    API Reference
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/docs/sdks/" class="link f3 fw2 dark-gray">
+                    SDKs
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/docs/integrations/" class="link f3 fw2 dark-gray">
+                    Integrations
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/keen" class="link f3 fw2 dark-gray">
+                    Open Source
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/community/" class="link f3 fw2 dark-gray">
+                    Community
+                  </a>
+                </li>
+                <li>
+                  <a href="http://status.keen.io/" class="link f3 fw2 dark-gray">
+                    API Status
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="pb4">
+              <h4 class="moon-gray f5 fw7 mt0 mb2 ttu">Customers</h4>
+              <ul class="list tl pl0">
+                <li>
+                  <a href="https://keen.io/customers/" class="link f3 fw2 dark-gray">
+                    Customers
+                  </a>
+                </li>
+                <li>
+                  <a href="https://blog.keen.io/" class="link f3 fw2 dark-gray">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="https://intercom.help/keen/" class="link f3 fw2 dark-gray">
+                    Knowledge Base
+                  </a>
+                </li>
+                <li>
+                  <a href="https://keen.io/support/" class="link f3 fw2 dark-gray">
+                    Support
+                  </a>
+                </li>
+              </ul>
+            </li>
+      </ul>
+      <div class="tc tl-ns line-buttons">
+        <a href="/login" class="nav-header-link db dib-ns link f6 fw7 ttu ph4 pv3 br2 mb3 bg-blue white rise">Log In</a>
+        <a href="/signup?source=header" class="nav-header-link db dib-ns link f6 fw7 ttu tracked ph4 pv3 br2 mb3 bg-blue white rise track-action">Sign Up</a>
+        <a href="https://keen.io/demo/" class="nav-header-link db dib-ns link f6 fw7 ttu ph4 pv3 br2 mb3 bg-blue white rise track-action">Request a Demo</a>
+      </div>
+    </div>
+  </nav>
+
+<!-- Desktop Nav -->
+
+<nav class="desktop-nav bg-dark-blue">
+    <a href="https://keen.io/" class="header-logo">
+        <img class="header-logo-img" src="/assets/images/svg/keen-logo-white-f5da8099.svg">
+    </a>
+    <div class="flex flex-1 pt-03">
+      <div class="self-end flex">
+      <ul class="f-left m-0 p-0">
+          <li class="nav-item-with-dropdown inline-flex m-0 p-0">
+            <a href="#" class="nav-header-link dib self-end silver link f6 ph2-m ph3-l top-menu-a" aria-expanded="false">Platform</a>
+            <ul class="nav-dropdown-list columns-1 list pa0 flex-wrap dn justify-between">
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/products/streams/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Stream Events</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Easily collect &amp; enrich events.</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/products/compute/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Compute</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Embeddable answers, insights, &amp; metrics.</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/products/access/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Access</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Design role-based data access</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/products/visualize/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Visualize</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Create stunning charts</p>
+                  </a>
+                </li>
+            </ul>
+          </li>
+          <li class="nav-item-with-dropdown inline-flex m-0 p-0">
+            <a href="#" class="nav-header-link dib self-end silver link f6 ph2-m ph3-l top-menu-a" aria-expanded="false">Developers</a>
+            <ul class="nav-dropdown-list columns-2 list pa0 flex-wrap dn justify-between">
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/docs/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Documentation</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Embedded Analytics API docs</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/docs/api/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">API Reference</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Full endpoint documentation</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/guides/getting-started/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Quickstart Guide</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Get started with Keen in minutes</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/docs/sdks/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">SDKs</span>
+                    <p class="f6 silver lh-copy mv0 fw2">SDKs for the languages you love</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/docs/integrations/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Integrations</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Pre-built tools help you do more with Keen</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/ideas/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Idea lab</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Embedded Analytics Use Case Examples</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://github.com/keen">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Open Source</span>
+                    <p class="f6 silver lh-copy mv0 fw2">We like to give back to the community</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/community/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Community</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Connect with other Keen developers</p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="http://status.keen.io/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">API Status</span>
+                    <p class="f6 silver lh-copy mv0 fw2">Uptime monitoring &amp; incident reporting</p>
+                  </a>
+                </li>
+            </ul>
+          </li>
+          <li class="nav-item-with-dropdown inline-flex m-0 p-0">
+            <a href="#" class="nav-header-link dib self-end silver link f6 ph2-m ph3-l top-menu-a" aria-expanded="false">Company</a>
+            <ul class="nav-dropdown-list columns-1 list pa0 flex-wrap dn justify-between">
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/customers/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Customers</span>
+                    <p class="f6 silver lh-copy mv0 fw2"></p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://blog.keen.io/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Blog</span>
+                    <p class="f6 silver lh-copy mv0 fw2"></p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://intercom.help/keen/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Knowledge Base</span>
+                    <p class="f6 silver lh-copy mv0 fw2"></p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/support/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Support</span>
+                    <p class="f6 silver lh-copy mv0 fw2"></p>
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-modal-link link dark-gray top-menu-a" href="https://keen.io/team/">
+                    <span class="f6 fw7 ttu  lh-solid mb1 mt4 db">Team</span>
+                    <p class="f6 silver lh-copy mv0 fw2"></p>
+                  </a>
+                </li>
+            </ul>
+          </li>
+          <li class="inline-flex ">
+            <a class="nav-header-link dib self-end silver hover-dark-gray link f6 ph2-m ph3-l" href="https://keen.io/pricing/">Pricing</a>
+          </li>
+    </ul>
+    <div class="f-left">
+      <a href="/login" class="nav-header-link link f6 silver hover-dark-gray inline-flex pv3 mr2 nav-header-link-btn">Log In</a>
+      <a href="/signup?source=header" class="nav-header-link link f6 ba bw1 silver hover-dark-gray br-pill ph3 pv2 inline-flex track-action nav-header-link-btn nav-header-link-btn-border">Sign Up</a>
+    </div>
+    </div>
+    </div>
+    <div class="nav-dropdown closed absolute pa4 pt1 z-999">
+      <div class="nav-dropdown-arrow z-1"></div>
+      <div class="nav-dropdown-background h-100 w-100 left-0 absolute bg-white shadow-5 br2"></div>
+      <div class="nav-dropdown-content h-100 w-100 overflow-hidden relative"></div>
+    </div>
+    </nav>
+</div>
