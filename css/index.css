@@ -20,7 +20,7 @@ li a:hover span{color:#000;}
 
 
 
-@media screen and (min-width:30em) and (max-width:60em){
+@media screen and (max-width:60em){
 	.desktop-nav {display:none;}
 	}
 .flex-container {
